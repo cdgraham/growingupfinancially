@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `GrowingUpFinancially.com`,
+    title: `Growing Up Financially`,
     description: `You don't have to wait until your 65+ to retire. Find out how you can start now and do it in less time.`,
     author: `@cdgraham`,
   },
@@ -28,5 +28,11 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+      {
+      resolve: `gatsby-plugin-chakra-ui`,
+      options: {
+        isUsingColorMode: false
+      },
+    },
   ],
 }
